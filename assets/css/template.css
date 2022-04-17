@@ -270,22 +270,23 @@ article{
 
 }
 
-footer{
-    display: flex;
+footer {
     background-color: #1e1e1e;
+    display: flex;
     justify-content: center;
 }
 
 .footer_menu{
     display: flex;
+    flex: 1;
 }
 
 .fm1, .fm2, .fm3{
     flex: 1;
-    color: #FFF;
+    color: #FFFFFF;
     padding: 20px;
 }
-    
+
 .fm1{
     background-color: #39aae1;
 }
@@ -295,7 +296,7 @@ footer{
 }
 
 .fm3{
-    background-color: #2b4c99 ;
+    background-color: #2b4c99;
 }
 
 .footer_area{
@@ -304,7 +305,7 @@ footer{
 
 .footer_areaitem{
     flex: 1;
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .flexColumn{
@@ -312,7 +313,7 @@ footer{
 }
 
 footer .widget_title_text{
-    color: #fff;
+    color: #FFFFFF;
 }
 
 .footer_copy{
@@ -323,6 +324,13 @@ footer .widget_title_text{
     font-size: 12px;
     margin-top: 30px;
 }
+
+
+
+
+
+
+
 
 
 
